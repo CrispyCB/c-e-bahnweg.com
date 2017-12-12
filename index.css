@@ -1,0 +1,112 @@
+a { color: black; text-decoration: none; font-family: 'Raleway', sans-serif; font-weight: bold;}
+
+body{
+    background-color: #fdf9f3;
+}
+
+h1{
+    border-top: solid;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 72px;
+    color: black;
+  text-decoration: none;
+    border-color: #CCC;
+    cursor:pointer;
+}
+h3{    font-family: 'Titillium Web', sans-serif;
+}
+h6{ cursor: pointer;}
+p{
+    font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+}
+ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+}
+#mainpage {
+    text-align: center;
+}
+
+#leftcolumn, #rightcolumn {
+    float: left;
+    min-height: 100px;
+    background-color: #fdf9f3;
+    border-bottom: solid;
+    border-color: #CCC;
+}
+#leftcolumn {
+     width: 50%;
+
+}
+#rightcolumn {
+     width: 50%;
+ }
+
+ #wrapper {
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+}
+#whocolumns {width:100%;}
+#whocolumns1, #whocolumns2, #whocolumns3 {width: 33%;display: inline-block;}
+#doescolumns1, #doescolumns2, #doescolumns3 {width: 33%;display: inline-block;}
+#writing, #coding {font-family: 'Raleway', sans-serif; font-size: 48px;}
+#github-projects{    font-family: 'Raleway', sans-serif;
+}
+.photo-grid {
+	margin: 1em auto;
+	max-width: 1106px;
+	text-align: center;
+}
+
+.photo-grid li {
+	display: inline-block;
+	margin: 0em;
+	width: 289px;
+}
+
+.photo-grid img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.photo-grid figure {
+  margin:0;
+	height: 163px;
+	overflow: hidden;
+	position: relative;
+	width: 289px;
+}
+
+.photo-grid figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.photo-grid figcaption p {
+	display: table-cell;
+	font-size: 1em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	vertical-align: middle;
+}
+.photo-grid li:hover figcaption {
+	opacity: 1;
+}
