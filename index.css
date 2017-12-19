@@ -3,7 +3,7 @@ a { color: black; text-decoration: none; font-family: 'Raleway', sans-serif; fon
 body{
     background-color: #fdf9f3;
 }
-
+ 
 h1{
     border-top: solid;
     font-family: 'Titillium Web', sans-serif;
@@ -43,7 +43,7 @@ li {
 }
 #leftcolumn {
      width: 50%;
-
+     
 }
 #rightcolumn {
      width: 50%;
@@ -54,11 +54,10 @@ li {
      margin: 0 auto;
      text-align: center;
 }
-#whocolumns {width:100%;}
-#whocolumns1, #whocolumns2, #whocolumns3 {width: 33%;display: inline-block;}
-#doescolumns1, #doescolumns2, #doescolumns3 {width: 33%;display: inline-block;}
+#whocolumns {display: flex; justify-content:space-around;}
+#doescolumns {display: flex; justify-content:space-around;}
 #writing, #coding {font-family: 'Raleway', sans-serif; font-size: 48px;}
-#github-projects{    font-family: 'Raleway', sans-serif;
+#github-projects{    font-family: 'Raleway', sans-serif; 
 }
 .photo-grid {
 	margin: 1em auto;
