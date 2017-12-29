@@ -48,8 +48,10 @@ li {
 #rightcolumn {
      width: 50%;
  }
-
- #wrapper {
+#qual {
+     display: flex;
+}
+#wrapper {
      width: 100%;
      margin: 0 auto;
      text-align: center;
