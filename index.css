@@ -30,6 +30,9 @@ li {
     vertical-align: top;
     padding: 15px;
 }
+#footer {
+    text-align: center;
+}
 #mainpage {
     text-align: center;
 }
