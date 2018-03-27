@@ -13,6 +13,9 @@ h1{
     border-color: #CCC;
     cursor:pointer;
 }
+h1:hover {
+	color: gray;
+}
 h3{    font-family: 'Titillium Web', sans-serif;
 }
 h6{ cursor: pointer;}
@@ -30,6 +33,7 @@ li {
     vertical-align: top;
     padding: 15px;
 }
+li a:hover {color: gray;}
 #footer {
     text-align: center;
 }
@@ -61,6 +65,8 @@ li {
 #writing, #coding {font-family: 'Raleway', sans-serif; font-size: 48px;}
 #github-projects{    font-family: 'Raleway', sans-serif; 
 }
+#writing:hover {color: gray;}
+#coding:hover {color: gray;}
 .photo-grid {
 	margin: 1em auto;
 	max-width: 1106px;
