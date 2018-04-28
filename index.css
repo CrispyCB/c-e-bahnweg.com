@@ -1,10 +1,11 @@
+/* The <a> and a:hover tags set the site-wide behavior for all text links.*/
 a { color: black; text-decoration: none; font-family: 'Raleway', sans-serif; font-weight: bold;}
 a:hover {color: gray;}
 
 body{
     background-color: #fdf9f3;
 }
- 
+/*The cursor:pointer alerts the user that the <h1> can be clicked to reveal the drop-down.*/
 h1{
     border-top: solid;
     font-family: 'Titillium Web', sans-serif;
@@ -14,11 +15,13 @@ h1{
     border-color: #CCC;
     cursor:pointer;
 }
+/*The hover attribute set on the <h1> further reinforces that the <h1> can be clicked to reveal a drop-down.*/
 h1:hover {
 	color: gray;
 }
 h3{    font-family: 'Titillium Web', sans-serif;
 }
+/*The cursor:pointer attribute set on the <h6> reveals that it can be clicked to reveal another drop-down.*/
 h6{ cursor: pointer;}
 p{
     font-family: 'Raleway', sans-serif;
@@ -51,7 +54,7 @@ li a:hover {color: gray;}
 }
 #leftcolumn {
      width: 50%;
-     
+
 }
 #rightcolumn {
      width: 50%;
@@ -71,7 +74,7 @@ li a:hover {color: gray;}
 #whocolumns {display: flex; justify-content:space-around;}
 #doescolumns {display: flex; justify-content:space-around;}
 #writing, #coding {font-family: 'Raleway', sans-serif; font-size: 48px;}
-#github-projects{    font-family: 'Raleway', sans-serif; 
+#github-projects{    font-family: 'Raleway', sans-serif;
 }
 #writing:hover {color: gray;}
 #coding:hover {color: gray;}
