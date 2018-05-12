@@ -23,6 +23,10 @@ h3{    font-family: 'Titillium Web', sans-serif;
 }
 /*The cursor:pointer attribute set on the <h6> reveals that it can be clicked to reveal another drop-down.*/
 h6{ cursor: pointer;}
+img {
+	width: 235px;
+	height: 304px;
+}
 p{
     font-family: 'Raleway', sans-serif;
   line-height: 1.5em;
@@ -78,6 +82,8 @@ li a:hover {color: gray;}
 }
 #writing:hover {color: gray;}
 #coding:hover {color: gray;}
-.portfolio-piece {
+.flex-item {
+	display: inline-block;
 	width: 33%;
 }
+
