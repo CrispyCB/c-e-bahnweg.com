@@ -78,3 +78,6 @@ li a:hover {color: gray;}
 }
 #writing:hover {color: gray;}
 #coding:hover {color: gray;}
+.portfolio-piece {
+	width: 33%;
+}
