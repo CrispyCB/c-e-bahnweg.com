@@ -82,8 +82,15 @@ li a:hover {color: gray;}
 }
 #whocolumns {display: flex; justify-content:space-around;}
 #doescolumns {display: flex; justify-content:space-around;}
-#writing, #coding {font-family: 'Futura', sans-serif; font-size: 48px;}
-#github-projects{    font-family: 'Futura', sans-serif;
+#writing, #coding {
+    font-family: Omar-Regular; 
+	font-weight: normal; 
+    font-style: normal;
+    font-size: 48px;}
+#github-projects{   
+    font-family: Omar-Regular; 
+	font-weight: normal; 
+    font-style: normal;;
 }
 #writing:hover {color: gray;}
 #coding:hover {color: gray;}
