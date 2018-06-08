@@ -8,7 +8,9 @@ body{
 /*The cursor:pointer alerts the user that the <h1> can be clicked to reveal the drop-down.*/
 h1{
     border-top: solid;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: Omar-Regular; 
+	font-weight: normal; 
+    font-style: normal;    
     font-size: 72px;
     color: black;
   text-decoration: none;
