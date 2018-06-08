@@ -21,7 +21,7 @@ h1{
 h1:hover {
 	color: gray;
 }
-h3, h4{
+h2, h3{
     color: #e9e9e9;
     font-family: Omar-Regular; 
 	font-weight: normal; 
@@ -86,8 +86,8 @@ li a:hover {color: gray;}
      margin: 0 auto;
      text-align: center;
 }
-#whocolumns {display: flex; justify-content:space-around;}
-#doescolumns {display: flex; justify-content:space-around;}
+#whocolumns {display: flex; justify-content:space-betwen;}
+#doescolumns {display: flex; justify-content:space-betwen;}
 #writing, #coding {
     font-family: Omar-Regular; 
 	font-weight: normal; 
