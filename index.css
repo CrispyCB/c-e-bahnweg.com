@@ -8,9 +8,9 @@ body{
 /*The cursor:pointer alerts the user that the <h1> can be clicked to reveal the drop-down.*/
 h1{
     border-top: solid;
-    font-family: Omar-Regular; 
-	font-weight: normal; 
-    font-style: normal;    
+    font-family: Omar-Regular;
+	font-weight: normal;
+    font-style: normal;
     font-size: 72px;
     color: #e9e9e9;
   text-decoration: none;
@@ -23,12 +23,12 @@ h1:hover {
 }
 h2, h3{
     color: #e9e9e9;
-    font-family: Omar-Regular; 
-	font-weight: normal; 
+    font-family: Omar-Regular;
+	font-weight: normal;
     font-style: normal;
 }
 /*The cursor:pointer attribute set on the <h6> reveals that it can be clicked to reveal another drop-down.*/
-h6{ 
+h6{
     color: #e9e9e9;
     cursor: pointer;
 }
@@ -73,6 +73,9 @@ li a:hover {color: gray;}
 #rightcolumn {
      width: 50%;
  }
+ #resolution-id {
+   margin-top: 7%;
+ }
  #qual{
  	margin-top: -10px;
  	margin-left: -55px;
@@ -89,13 +92,13 @@ li a:hover {color: gray;}
 #whocolumns {display: flex; justify-content:space-betwen;}
 #doescolumns {display: flex; justify-content:space-betwen;}
 #writing, #coding {
-    font-family: Omar-Regular; 
-	font-weight: normal; 
+    font-family: Omar-Regular;
+	font-weight: normal;
     font-style: normal;
     font-size: 48px;}
-#github-projects{   
-    font-family: Omar-Regular; 
-	font-weight: normal; 
+#github-projects{
+    font-family: Omar-Regular;
+	font-weight: normal;
     font-style: normal;;
 }
 #writing:hover {color: gray;}
