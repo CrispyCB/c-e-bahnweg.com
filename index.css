@@ -73,6 +73,7 @@ li a:hover {color: gray;}
 #rightcolumn {
      width: 50%;
  }
+ /* Sets alignment for portfolio pieces on desktop */
  #resolution-id {
    margin-top: 7%;
  }
@@ -114,4 +115,21 @@ li a:hover {color: gray;}
   margin: 0 auto;
   height: 450px;
   width: 1000px;
+}
+/* Sets media queries*/
+@media only screen and (width: 1440px) and (height: 900px) {
+  #resolution-id {
+    margin-top: 19%;
+  }
+#resolution-id-2 {
+  margin-top: 14%;
+}
+}
+@media only screen and (width: 1280px) and (height: 800px) {
+  #resolution-id {
+    margin-top: 22%;
+  }
+  #resolution-id-2 {
+    margin-top: 11%;
+  }
 }
