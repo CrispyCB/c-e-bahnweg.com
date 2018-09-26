@@ -133,7 +133,7 @@ li a:hover {color: gray;}
     margin-top: 11%;
   }
 }
-@media only screen and (min-width: 1440px) and (min-height: 725px) {
+@media only screen and (width: 1440px) and (height: 725px) {
     #resolution-id {
       margin-top: 13%;
     }
