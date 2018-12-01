@@ -135,9 +135,9 @@ li a:hover {color: gray;}
 }
 @media only screen and (min-width: 1440px) and (min-height: 725px) {
     #resolution-id {
-      margin-top: 19%;
+      margin-top: 13.5%;
     }
   #resolution-id-2 {
-    margin-top: 9%;
+    margin-top: 3.5%;
   }
   }
