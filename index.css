@@ -164,8 +164,11 @@ div.card > p {
     margin-top: 3.5%;
   }
   }
+<<<<<<< HEAD
 @media only screen and (min-width: 1500px) and (min-height: 1900px) {
     #resolution-id {
       margin-top: 13.5%;
     }
   }
+=======
+>>>>>>> parent of 286e170... fixes media queries again
