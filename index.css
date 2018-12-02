@@ -80,6 +80,9 @@ li a:hover {color: gray;}
  }
  /* Sets alignment for portfolio pieces on desktop */
  #resolution-id {
+   margin-top: 11%;
+ }
+ #resolution-id-2 {
    margin-top: 7%;
  }
  #qual{
